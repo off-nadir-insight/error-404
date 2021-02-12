@@ -6,9 +6,12 @@
 
 body {
     background-color: var(--light);
+    color: var(--dark);
+    position: relative;
+    overflow-y: hidden;
 }
 
-header, main, footer {
+header, main {
     margin: 0 2rem;
 }
 
@@ -29,4 +32,27 @@ main {
 
 main div {
     padding: 2rem;
+}
+
+main p {
+    width: 50ch;
+}
+
+main button {
+    background-color: var(--accent);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: var(--dark);
+    color: var(--light);
+    width: 100%;
 }
