@@ -34,8 +34,7 @@ main div {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 560px;
 }
 
 main p {
@@ -71,16 +70,9 @@ footer {
     }
     main p {
         width: 65%;
-        text-align: center;
     }
     main img {
         max-width: 495px;
         height: auto;
     }
-    /* main div h1 {
-        align-items: center;
-    }
-    main div button {
-        align-items: center;
-    } */
 }
